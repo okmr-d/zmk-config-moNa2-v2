@@ -109,7 +109,7 @@
 
         layer_3 {
             bindings = <
-&kp ESCAPE  &kp LC(LS(TAB))     &kp LS(LG(NUMBER_3))    &kp LC(TAB)              &trans                                            &trans            &mkp MB3            &kp UP_ARROW    &mkp MB4         &trans
+&kp ESCAPE  &kp LC(LS(TAB))     &kp LS(LG(NUMBER_3))    &kp LS(LG(NUMBER_4))     &kp LS(LG(NUMBER_5))                              &trans            &mkp MB3            &kp UP_ARROW    &mkp MB4         &trans
 &kp TAB     &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)     &kp LC(LG(LEFT_ARROW))   &kp LC(LG(RIGHT_ARROW))            &trans         &kp LC(LEFT)      &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(RIGHT)
 &trans      &kp LEFT_SHIFT      &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans                   &trans    &trans         &kp LG(LS(LEFT))  &kp LG(LEFT_ARROW)  &kp DOWN_ARROW  &kp LG(RIGHT)    &kp LG(LS(RIGHT))
 &trans      &trans              &trans                  &trans                   &trans                   &trans    &kp LG(SPACE)  &kp ENTER                                                              &trans
