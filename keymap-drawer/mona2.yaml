@@ -40,8 +40,8 @@ layers:
   - {t: LANGUAGE 2, h: '2'}
   - {t: LANGUAGE 1, h: '1'}
   - {t: '&to_layer_0 SPACE', h: '3'}
-  - {t: '&to_layer_0 ENTER', h: '3'}
   - BACKSPACE
+  - {t: '&to_layer_0 ENTER', h: '3'}
   - \
   '1':
   - '1'
