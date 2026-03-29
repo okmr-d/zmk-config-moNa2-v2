@@ -21,7 +21,7 @@ layers:
   - J
   - K
   - L
-  - {t: '&to_layer_0 MINUS', h: '3'}
+  - '-'
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -38,8 +38,8 @@ layers:
   - LEFT ALT
   - LEFT GUI
   - {t: LANGUAGE 2, h: '2'}
-  - {t: SPACE, h: '1'}
-  - SPACE
+  - {t: LANGUAGE 1, h: '1'}
+  - {t: '&to_layer_0 SPACE', h: '3'}
   - BACKSPACE
   - {t: '&to_layer_0 ENTER', h: '3'}
   - \
@@ -118,8 +118,8 @@ layers:
   - '='
   - '{'
   - '}'
-  - ;
-  - ''''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -130,7 +130,7 @@ layers:
   - LANGUAGE 1
   - {t: ▽, type: trans}
   '3':
-  - {t: ▽, type: trans}
+  - ESCAPE
   - Ctl+Sft+TAB
   - PRINTSCREEN
   - Ctl+TAB
@@ -150,7 +150,7 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT SHIFT
   - Gui+Sft+LEFT ARROW
@@ -168,7 +168,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
