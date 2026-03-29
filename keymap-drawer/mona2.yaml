@@ -21,7 +21,7 @@ layers:
   - J
   - K
   - L
-  - '-'
+  - {t: '&to_layer_0 MINUS', h: '3'}
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -39,7 +39,7 @@ layers:
   - LEFT GUI
   - {t: LANGUAGE 2, h: '2'}
   - SPACE
-  - {t: LANGUAGE 1, h: '1'}
+  - {t: SPACE, h: '1'}
   - BACKSPACE
   - {t: '&to_layer_0 ENTER', h: '3'}
   - \
@@ -106,7 +106,7 @@ layers:
   - {t: ▽, type: trans}
   - '['
   - ']'
-  - ':'
+  - ''''
   - '"'
   - '~'
   - ;
@@ -127,7 +127,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LANGUAGE 1
   - {t: ▽, type: trans}
   '3':
   - {t: ▽, type: trans}
@@ -150,7 +150,7 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - LEFT SHIFT
   - Gui+Sft+LEFT ARROW
@@ -170,12 +170,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '4':
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: BT, h: '0'}
@@ -211,8 +211,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR ALL
   '5':
@@ -345,7 +345,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [39, 38]
+- p: [1, 2]
   k: {t: ESC, h: '4'}
 - p: [11, 12]
   k: TAB
@@ -353,3 +353,5 @@ combos:
   k: '&mkp MB1'
 - p: [18, 19]
   k: '&mkp MB2'
+- p: [38, 39]
+  k: Gui+SPACE
