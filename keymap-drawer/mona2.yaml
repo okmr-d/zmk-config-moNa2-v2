@@ -38,8 +38,8 @@ layers:
   - LEFT ALT
   - LEFT GUI
   - {t: LANGUAGE 2, h: '2'}
-  - SPACE
   - {t: SPACE, h: '1'}
+  - SPACE
   - BACKSPACE
   - {t: '&to_layer_0 ENTER', h: '3'}
   - \
@@ -64,7 +64,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - +
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -76,13 +76,13 @@ layers:
   - '1'
   - '2'
   - '3'
-  - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -103,7 +103,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - +
   - '['
   - ']'
   - ''''
@@ -115,7 +115,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '='
   - '{'
   - '}'
   - ;
