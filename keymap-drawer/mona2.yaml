@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: mona2}
 layers:
   default:
-  - Q
+  - {t: Q, h: LCTRL}
   - W
   - E
   - R
@@ -37,13 +37,56 @@ layers:
   - LCTRL
   - LEFT ALT
   - LEFT GUI
-  - {t: LANGUAGE 2, h: '2'}
-  - {t: SPACE, h: '1'}
-  - {t: '&to_layer_0 SPACE', h: '3'}
+  - {t: LANGUAGE 2, h: '1'}
+  - SPACE
+  - {t: '&to_layer_0 LANGUAGE_1', h: '2'}
   - BACKSPACE
   - {t: '&to_layer_0 ENTER', h: '3'}
   - \
   '1':
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - '`'
+  - ':'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - +
+  - '['
+  - ']'
+  - ':'
+  - ''''
+  - '~'
+  - ;
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '='
+  - '{'
+  - '}'
+  - ;
+  - '"'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LANGUAGE 1
+  - {t: ▽, type: trans}
+  '2':
   - '1'
   - '2'
   - '3'
@@ -81,64 +124,21 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  '2':
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - '`'
-  - ':'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - +
-  - '['
-  - ']'
-  - ''''
-  - '"'
-  - '~'
-  - ;
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '='
-  - '{'
-  - '}'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LANGUAGE 1
   - {t: ▽, type: trans}
   '3':
-  - ESCAPE
+  - {t: ▽, type: trans}
   - Ctl+Sft+TAB
   - PRINTSCREEN
   - Ctl+TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - HOME
+  - {t: ▽, type: trans}
   - UP ARROW
-  - END
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+LEFT ARROW
@@ -159,18 +159,18 @@ layers:
   - {t: ▽, type: trans}
   - '&mkp MB4'
   - {t: ▽, type: trans}
-  - DELETE
-  - PAGE UP
-  - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ENTER
   - SPACE
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   '4':
   - {type: held}
@@ -351,9 +351,7 @@ combos:
   k: TAB
 - p: [17, 18]
   k: '&mkp MB1'
-- p: [18, 19]
+- p: [19, 20]
   k: '&mkp MB2'
 - p: [38, 39]
   k: Gui+SPACE
-- p: [36, 40]
-  k: LANGUAGE 1
