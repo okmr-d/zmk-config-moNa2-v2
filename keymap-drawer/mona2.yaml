@@ -16,12 +16,12 @@ layers:
   - D
   - F
   - G
-  - {t: ▽, type: trans}
+  - BACKSPACE
   - H
   - J
   - K
   - L
-  - ENTER
+  - '-'
   - {t: Z, h: LEFT SHIFT}
   - {t: X, h: LEFT SHIFT}
   - C
@@ -39,9 +39,9 @@ layers:
   - LEFT GUI
   - {t: LANGUAGE 2, h: '1'}
   - {t: SPACE, h: '7'}
-  - {t: '&to_layer_0 SPACE', h: '2'}
+  - {t: '&to_layer_0 LANGUAGE_1', h: '2'}
   - BACKSPACE
-  - {t: '&to_layer_0 LANGUAGE_1', h: '3'}
+  - {t: '&to_layer_0 ENTER', h: '3'}
   - \
   '1':
   - '!'
@@ -145,7 +145,7 @@ layers:
   - Gui+RIGHT ARROW
   - Ctl+Gui+LEFT ARROW
   - Ctl+Gui+RIGHT ARROW
-  - '&mkp MB3'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
@@ -157,7 +157,7 @@ layers:
   - Gui+Sft+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB4'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
