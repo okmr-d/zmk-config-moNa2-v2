@@ -37,9 +37,9 @@ layers:
   - LCTRL
   - LEFT ALT
   - LEFT GUI
-  - {t: LANGUAGE 2, h: '1'}
-  - {t: SPACE, h: '7'}
-  - {t: '&to_layer_0 LANGUAGE_1', h: '2'}
+  - {t: LANGUAGE 2, h: '2'}
+  - {t: SPACE, h: '1'}
+  - {t: '&to_layer_0 SPACE', h: '7'}
   - BACKSPACE
   - {t: '&to_layer_0 ENTER', h: '3'}
   - \
@@ -80,8 +80,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LANGUAGE 1
@@ -123,9 +123,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -339,8 +339,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -358,4 +358,4 @@ combos:
 - p: [22, 23]
   k: Sft+TAB
 - p: [29, 30]
-  k: '2'
+  k: '7'
