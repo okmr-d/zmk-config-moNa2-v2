@@ -21,7 +21,7 @@ layers:
   - J
   - K
   - L
-  - '-'
+  - ENTER
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -39,9 +39,9 @@ layers:
   - LEFT GUI
   - {t: LANGUAGE 2, h: '1'}
   - SPACE
-  - {t: '&to_layer_0 LANGUAGE_1', h: '2'}
+  - {t: '&to_layer_0 SPACE', h: '2'}
   - BACKSPACE
-  - {t: '&to_layer_0 ENTER', h: '3'}
+  - {t: '&to_layer_0 LANGUAGE_2', h: '3'}
   - \
   '1':
   - '!'
@@ -55,7 +55,7 @@ layers:
   - (
   - )
   - '`'
-  - ':'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -66,7 +66,7 @@ layers:
   - ':'
   - ''''
   - '~'
-  - ;
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
